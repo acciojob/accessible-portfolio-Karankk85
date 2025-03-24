@@ -1,2 +1,34 @@
 
 /* Your CSS Code here. */
+body {
+    margin: 20px;
+    line-height: 1.6;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+h1 {
+    color: #333;
+}
+
+img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    display: block;
+    margin: 10px 0;
+}
